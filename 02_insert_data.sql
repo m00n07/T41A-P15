@@ -1,9 +1,9 @@
 INSERT INTO productos(nombre,precio,stock) VALUES 
-('Pantalla', 100.00, 50),
-('Mouse', 40.00, 80),
-('Alfombra', 1000.00, 10),
-('Teclado', 200.00, 80),
-('Adaptador', 40.00, 25),
+('Teclado', 100.00, 50),
+('Raton', 40.00, 80),
+('Pantalla', 1000.00, 10),
+('Mouse', 200.00, 80),
+('Alfombra', 40.00, 25),
 ('HUB', 90.00, 45);
 
 INSERT INTO departamento (nombre) VALUES
@@ -11,6 +11,7 @@ INSERT INTO departamento (nombre) VALUES
 ('Ingeniería'),
 ('Recursos Humanos'),
 ('Marketing');
+
 
 INSERT INTO empleados (nombre) VALUES
 ('Sofia Lopez'),
