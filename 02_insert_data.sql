@@ -1,10 +1,10 @@
 INSERT INTO productos(nombre,precio,stock) VALUES 
-('Teclado', 100.00, 50),
-('Raton', 40.00, 80),
+('USB', 100.00, 50),
+('Mouse', 40.00, 80),
 ('Pantalla', 1000.00, 10),
-('Mouse', 200.00, 80),
-('Alfombra', 40.00, 25),
-('HUB', 90.00, 45);
+('Teclado', 200.00, 80),
+('Adaptador', 40.00, 25),
+('Audifonos', 90.00, 45);
 
 INSERT INTO departamento (nombre) VALUES
 ('Ventas'),
@@ -13,12 +13,12 @@ INSERT INTO departamento (nombre) VALUES
 ('Marketing');
 
 INSERT INTO empleados (nombre) VALUES
-('Ana García'),
-('Luis Martínez'),
-('Sofía Hernández'),
-('Carlos Rodríguez'),
-('Elena Gómez'),
-('Miguel Torres');
+('Sofia Lopez'),
+('Pedro Salazar'),
+('Daniel Rojas'),
+('Ana Rodríguez'),
+('Perla Gonzalez'),
+('Fernando Torres');
 
 INSERT INTO empleados_departamento (id_empleado, id_departamento) VALUES
 (1, 2),
