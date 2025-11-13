@@ -1,10 +1,10 @@
 INSERT INTO productos(nombre,precio,stock) VALUES 
-('USB', 100.00, 50),
+('Pantalla', 100.00, 50),
 ('Mouse', 40.00, 80),
-('Pantalla', 1000.00, 10),
+('Alfombra', 1000.00, 10),
 ('Teclado', 200.00, 80),
 ('Adaptador', 40.00, 25),
-('Audifonos', 90.00, 45);
+('HUB', 90.00, 45);
 
 INSERT INTO departamento (nombre) VALUES
 ('Ventas'),
